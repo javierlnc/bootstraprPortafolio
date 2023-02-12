@@ -39,3 +39,15 @@ h1{
     height: 200px;
     margin: 20px;
 }
+.hero-inferior-imagen{
+    margin-bottom: 20px;
+}
+
+
+/* Media Query */
+@media screen and (min-width: 700px){
+    .hero-inferior-imagen{
+        max-width: 600px;
+        margin: 20px;
+    }
+}
