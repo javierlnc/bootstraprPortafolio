@@ -16,6 +16,10 @@ h1{
     color:#F2F2F2;
     padding: 10px;
 }
+.seccion-clara{
+    background-color:#D9D6D2;
+
+}
 .seccion-titulo{
     font-size: 2rem;
     padding: 15px 0;
@@ -64,7 +68,26 @@ h1{
     max-width: 600px;
     text-align: center;
 }
-
+/* Habilidades */
+.habilidades{
+    padding: 40px;
+}
+.habilidades .row div{
+    height: auto;
+    border: 1px solid #593A28;
+    padding: 20px 10px;
+}
+.habilidades-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin:10px 0;
+}
+.icono-habilidades{
+    font-size: 50px;
+    background-color:#BF8E63;
+    border-radius: 50%;
+    padding: 10px;
+}
 /* Media Query */
 @media screen and (min-width: 700px){
     .hero-inferior-imagen{
